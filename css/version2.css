@@ -10,7 +10,8 @@ body {
 }
 
 section h2 {
-  text-align: center;
+  text-align:left;
+  margin: 0;
 }
 
 header{
@@ -41,23 +42,22 @@ section{
 
 article {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content:center;
   background-color: #fff;
   padding: 80px;
 }
 
 img {
-    max-width: 100%; /* DO NOT delete or change this line */
+  max-width: 100%; /* DO NOT delete or change this line */
 }
 
 .text {
-  background-color: #fff;
-  padding: 40px;
+  padding-left: 40px;
   line-height: 30px;
   font-size: 120%;
   box-sizing:border-box;
 }
+
 
 footer{
   text-align: center;
@@ -104,5 +104,5 @@ a {
 }
 
 a:hover {
-    color: #82E8FF;
+  color: #82E8FF;
 }
